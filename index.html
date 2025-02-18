@@ -1,31 +1,45 @@
 <html>
     <head>
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <style>
+            body{
+                background-color: rgb(154, 153, 153);
+            }
             .thick-border {
                 border: 3px solid black;
                 padding: 20px;
                 margin: 10px;
                 position: relative;
+                
             }
             .thin-border {
                 border: 1px solid rgb(33, 33, 33);
                 padding: 15px;
                 margin: 10px;
                 position: relative;
+                background-color: rgb(154, 153, 153);
             }
-            
-            #inside{
+            .date{
+                position: relative;
+            }
+            #inside, #insides{
                 display: none;
                 padding: 10px;
+                position: relative;
             }
 
             h1, h4, h2{
                 transition: all 1s ease-in;
+                position: relative;
             }
 
-            h1, h4{
+            h2{
                 text-align:center;
+            }
+            h4, h1{
+                text-align:left;
             }
     </style>
         </style>
@@ -33,9 +47,9 @@
     <body>
         <div id="container">
             <div id="title" class="thick-border">
-                <h1>Jonh APples</h1>
+                <h1>Nanami Buchanan</h1>
                 <div id="inside">
-                    <h4>@gmail.com</h4>
+                    <h4>nanamibuchanan@gmail.com</h4>
                 </div>
             </div>
             <br>
@@ -43,9 +57,9 @@
             <div id="title " class="thick-border">
                 <h1 >CAREER OBJECTIVE</h1>
                     <div id="inside">
-                        <h4>Aspiring computer scientist with Java and Python certifications, proficient in four computer languages, web development/design skills, and various STEM awards.
+                        <h3>Aspiring computer scientist with Java and Python certifications, proficient in four computer languages, web development/design skills, and various STEM awards.
                             People-orientated leader, creative problem-solver, and top-of-class student determined to cultivate greater knowledge through the pursuit of a computer science degree.
-                        </h4>
+                        </h3>
                     </div>
             </div>
             <br>
@@ -53,10 +67,10 @@
             <div id="title" class="thick-border">
                 <h1>EDUCATION</h1>
                     <div id="inside">
-                        <h2 id="date">08/23/2021 - 05/29/2025</h2>
-                        <h4>William J. Brennan High School</h4>
-                        <h4>GPA: 104.21</h4>
-                        <h4>RANK: 1/772</h4>
+                        <h2 class="date">08/23/2021 - 05/29/2025</h2>
+                        <h4>- William J. Brennan High School</h4>
+                        <h4>- GPA: 104.21</h4>
+                        <h4>- RANK: 1/772</h4>
                     </div>
             </div>
             <br>
@@ -66,45 +80,45 @@
                 <div id="inside">
                     <div id="freshman" class="thin-border">
                         
-                        <h2 id="date">9th 2021-2022</h2>
+                        <h2 class="date">9th 2021-2022</h2>
                         <div id="insides">
-                            <h4>National Math and Science Award STEM Star Award</h4>
-                            <h4>Academic Award Principles of Computer Science AP</h4>
-                            <h4>Certificate of Mastery</h4>
-                            <h4>Team Tennis District Championship Runner-Up</h4>
+                            <h4>- National Math and Science Award STEM Star Award</h4>
+                            <h4>- Academic Award Principles of Computer Science AP</h4>
+                            <h4>- Certificate of Mastery</h4>
+                            <h4>- Team Tennis District Championship Runner-Up</h4>
                         </div>
                     </div>
                     <br>
                     <div id="sophmore" class="thin-border">
-                        <h2 id="date">10th 2022-2023</h2>
+                        <h2 class="date">10th 2022-2023</h2>
                         <div id="insides">
-                            <h4>AP Scholar Award</h4>
-                            <h4>National African American Recognition Program</h4>
-                            <h4>Information Technology Specialist - Python</h4>
-                            <h4>Academic Award Advanced Computer Science 1</h4>
-                            <h4>Academic Award Art 2-D Portfolio AP</h4>
-                            <h4>Singles Tennis District Championship Runner-Up</h4>
+                            <h4>- AP Scholar Award</h4>
+                            <h4>- National African American Recognition Program</h4>
+                            <h4>- Information Technology Specialist - Python</h4>
+                            <h4>- Academic Award Advanced Computer Science 1</h4>
+                            <h4>- Academic Award Art 2-D Portfolio AP</h4>
+                            <h4>- Singles Tennis District Championship Runner-Up</h4>
                         </div>
                     </div>
                     <br>
 
                     <div id="junior" class="thin-border">
-                        <h2 id="date">11th 2023-2024</h2>
+                        <h2 class="date">11th 2023-2024</h2>
                         <div id="insides">
-                            <h4>National First-Generation Recognition Program</h4>
-                            <h4>UIL Literary Criticism Competition District Champion</h4>
-                            <h4>Information Technology Specialist - Java</h4>
-                            <h4>AP Scholar with Distinction Award</h4>
-                            <h4>Team Tennis District, Bi-District, and Area Champion</h4>
+                            <h4>- National First-Generation Recognition Program</h4>
+                            <h4>- UIL Literary Criticism Competition District Champion</h4>
+                            <h4>- Information Technology Specialist - Java</h4>
+                            <h4>- AP Scholar with Distinction Award</h4>
+                            <h4>- Team Tennis District, Bi-District, and Area Champion</h4>
                         </div>
                     </div>
                     <br>
 
                     <div id="senior" class="thin-border">
-                        <h2 id="date">12th 2024-2025</h2>
+                        <h2 class="date">12th 2024-2025</h2>
                         <div id="insides">
-                            <h4>Team Tennis - 4th Place</h4>
-                            <h4>Scholar-Athlete Award</h4>
+                            <h4>- Team Tennis (4th Place)</h4>
+                            <h4>- Scholar-Athlete Award</h4>
                         </div>
                     </div>
                     <br>
@@ -115,10 +129,10 @@
             <div id="title" class="thick-border">
                 <h1>ACTIVITES</h1>
                 <div id="inside">
-                    <divclass="thin-border">
+                    <div class="thin-border">
                         <h3>National Honors Society</h3>
                         <div id="insides">
-                            <h4 id="date">10th-12th</h4>
+                            <h4 class="date">10th-12th</h4>
                             <h4>Member (10-11th), Vice President (12th ~ elected)</h4>
                         </div>
                     </div>
@@ -127,7 +141,7 @@
                     <div class="thin-border">
                         <h3>Food Bank Volunteer</h3>
                         <div id="insides">
-                            <h4 id="date">12th</h4>
+                            <h4 class="date">12th</h4>
                         </div>
                         
                     </div>
@@ -136,7 +150,7 @@
                     <div class="thin-border">
                         <h3>UIL Literary Criticism Team</h3>
                         <div id="insides">
-                            <h4 id="date">11th</h4>
+                            <h4 class="date">11th</h4>
                         </div>
                         
                     </div>
@@ -145,7 +159,7 @@
                     <div class="thin-border">
                         <h3>Brennan High School Tennis Team</h3>
                         <div id="insides">
-                            <h4 id="date">9th-12th</h4>
+                            <h4 class="date">9th-12th</h4>
                             <h4>Jv (9th-10th), Varsity (11th-12th), Team Captian (12th ~ elected)</h4>
                         </div>
                         
@@ -155,7 +169,7 @@
                     <div class="thin-border">
                         <h3>NorthSide Tennis Program</h3>
                         <div id="insides">
-                            <h4 id="date">9th-11th</h4>
+                            <h4 class="date">9th-11th</h4>
                         </div>
                         
                     </div>
@@ -164,7 +178,7 @@
                     <div class="thin-border">
                         <h3>Crochet Club</h3>
                         <div id="insides">
-                            <h4 id="date">11th</h4>
+                            <h4 class="date">11th</h4>
                             <h4>Vice President</h4>
                         </div>
                         
@@ -174,7 +188,7 @@
                     <div class="thin-border">
                         <h3>Multidisciplinary Tutor</h3>
                         <div id="insides">
-                            <h4 id="date">11th-12th</h4>
+                            <h4 class="date">11th-12th</h4>
                         </div>
                         
                     </div>
