@@ -48,18 +48,20 @@
         }
     });
 
-           
+
 var lightButton = document.getElementById("lightBtn");
 var darkButton = document.getElementById("darkBtn");
             
 lightButton.addEventListener("click", function(){
     document.body.id = "light-mode";
     localStorage.setItem("theme", "light");
+    window.location.reload();
 });
             
 darkButton.addEventListener("click", function(){
     document.body.id = "dark-mode";
     localStorage.setItem("theme", "dark");
+    window.location.reload();
 });
             
 window.addEventListener("DOMContentLoaded", function(){
@@ -69,6 +71,3 @@ window.addEventListener("DOMContentLoaded", function(){
     }
 });
 
-refresh.addEventListener('click', function(){
-    window.location.reload();
-  });
